@@ -1,11 +1,3 @@
-# node-pureimage-cache
-Image Thumbnail cache built on Node PureImage
-
-
-Create a new cache with
-
-``` javascript
-
 const paths = require('path')
 const ImageCache = require('../index.js')
 const cache = new ImageCache({
@@ -22,4 +14,3 @@ cache.makeThumbnail({
     console.log("generated a thumbnail on disk at", thumbPath)
 })
 
-```

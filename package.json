@@ -1,0 +1,22 @@
+{
+  "name": "pureimage-cache",
+  "version": "0.0.1",
+  "description": "image cache built on Node PureImage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshmarinacci/node-pureimage-cache.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshmarinacci/node-pureimage-cache/issues"
+  },
+  "homepage": "https://github.com/joshmarinacci/node-pureimage-cache#readme",
+  "dependencies": {
+    "pureimage": "^0.1.6"
+  }
+}

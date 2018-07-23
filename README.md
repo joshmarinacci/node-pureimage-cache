@@ -1,8 +1,11 @@
 # node-pureimage-cache
-Image Thumbnail cache built on Node PureImage
+Image Thumbnail cache built on [PureImage](https://github.com/joshmarinacci/node-pureimage).
+It scales down images
+Typically it would be used inside of a web-server application.  Create an instance of the
 
 
-Create a new cache with
+
+
 
 ``` javascript
 

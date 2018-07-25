@@ -15,8 +15,8 @@ class ImageTask {
             ImageUtils.loadImage(params).then(image1 => {
                 const image2 = ImageUtils.scaleImage(params, image1)
                 return ImageUtils.saveImage(params, image2, fpath)
-            }).then((path) => {
-                this.listeners.forEach(cb => cb(path))
+            }).then(() => {
+                this.listeners.forEach(cb => cb(fpath))
             })
         }
     }

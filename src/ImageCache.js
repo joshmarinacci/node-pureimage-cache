@@ -58,8 +58,8 @@ class ImageCache {
         })
 
         const img = path.substring(path.indexOf('/') + 1)
-        params.path = img.substring(0, img.indexOf('.'))
-        params.ext = img.substring(img.indexOf('.') + 1)
+        params.path = img.substring(0, img.lastIndexOf('.'))
+        params.ext = img.substring(img.lastIndexOf('.') + 1)
         if(params.ext.toLowerCase() === 'jpg' || params.ext.toLowerCase() === 'jpeg') {
             params.extension = ImageTask.JPEG
             params.contentType = 'image/jpeg'

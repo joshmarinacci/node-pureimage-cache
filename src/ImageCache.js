@@ -32,7 +32,7 @@ class ImageCache {
         if(!this.tasks[fpath]) this.tasks[fpath] = new ImageTask(params, fpath,this.useWorkers)
 
         return new Promise((res,rej)=>{
-            this.tasks[fpath].listen(()=> res())
+            this.tasks[fpath].listen(()=> res(fpath))
         })
     }
 
